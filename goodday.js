@@ -51,31 +51,34 @@ else (stars.indexOf(birthstar) <= stars.indexOf(daystar))
   }
 }
 if (counter === 1) {
-  console.log("Janma Thara, Not that good");
+  alert("Janma Thara, Not that good");
 }
 else if (counter === 2) {
-  console.log("Sampath Thara, A good one");
+  alert("Sampath Thara, A good one");
 }
 else if (counter === 3) {
-  console.log("Vipath Thara, Not that good");
+  alert("Vipath Thara, Not that good");
 }
 else if (counter === 4) {
-  console.log("Kshema Thara, A good one");
+  alert("Kshema Thara, A good one");
 }
 else if (counter === 5) {
-  console.log("Pratyak Thara, Not that good");
+  alert("Pratyak Thara, Not that good");
 }
 else if (counter === 6) {
-  console.log("Saadhan Thara, A good one");
+  alert("Saadhan Thara, A good one");
 }
 else if (counter === 7) {
-  console.log("Naidhan Thara, Not that good");
+  alert("Naidhan Thara, Not that good");
 }
 else if (counter === 8) {
-  console.log("Mitra Thara, A good one");
+  alert("Mitra Thara, A good one");
 }
 else if (counter === 9) {
-  console.log("Param Mitra Thara, A good one");
+  alert("Param Mitra Thara, A good one");
+}
+else{
+	alert("Invalid Data");
 }
 //console.log("final : "+counter);
 //console.log("here : "i);

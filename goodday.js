@@ -109,6 +109,18 @@ console.log(stars.indexOf(str2));
 //     j=0;
 //   }
 // }
+}
+function resetdata(){
 document.getElementById('str1').value = '';
 document.getElementById('str2').value = '';
+document.getElementById("thara").innerHTML = "Data cleared";
+}
+
+function swap() {
+  let s1 = document.getElementById("str1").value;
+  let s2 = document.getElementById("str2").value
+  document.getElementById("str1").value = s2;
+  document.getElementById("str2").value = s1;
+  document.getElementById("thara").innerHTML = "Fields swapped";
+  
 }

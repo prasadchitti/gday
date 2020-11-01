@@ -1,7 +1,10 @@
+
 h2 {
-    text-shadow: 2px 1px 2px indigo;
-  }
+    text-shadow: 1px 1px 1px aliceblue; }
 h3{
     color: crimson;
 }
 
+text{
+  color: aliceblue;
+}

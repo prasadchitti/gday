@@ -56,7 +56,7 @@ else (stars.indexOf(str1) <= stars.indexOf(str2))
   }
 }
 // (str1==="")||(str2==="")
-if((!stars.includes(str1))&&(!stars.includes(str2))){
+if((!stars.includes(str1))||(!stars.includes(str2))){
   document.getElementById("thara").innerHTML = "Either typo or missed field";
 }
 else{
